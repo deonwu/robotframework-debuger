@@ -1,0 +1,15 @@
+#logging setting.
+LOGGING_FILE = robot_debuger.log
+LOGGING_LEVEL = INFO
+
+#rdb proxy logging.
+PROXY_LOGGING_FILE = rdb_proxy.log
+
+#web interface setting.
+INTERFACE_LIST = rdb.interface.web.WebDebuger
+WEB_PORT = 0
+WEB_BIND = 0.0.0.0
+
+MML_OUTPUT_FILE =
+CASE_STATUS_FILE =
+WEB_PROXY = N
